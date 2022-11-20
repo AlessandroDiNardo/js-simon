@@ -8,13 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <h1>SIMON SAYS</h1>
+    <div class="container">
+        <h1>SIMON SAYS</h1>
 
-    <div id="number">
-        
+        <h2 id="rules"></h2>
+
+        <button id="start">START</button>
+
+        <div id="num-random"></div>
+
+        <div id="countdown"></div>
+
+        <div class="input">
+            <input type="text" id="numAdd">
+            <button id="enter">Invia</button>
+        </div>
+
+        <h3 id="points-right"></h3>
+
+        <h3 id="points-wrong"></h3>
+
+        <h3 id="mancun"></h3>
+
+        <button type="button" onClick="window.location.reload()" id="reset">RESET</button>
     </div>
 
+    <script src="js/function.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
