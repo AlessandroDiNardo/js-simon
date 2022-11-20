@@ -19,7 +19,7 @@ console.log(numRandomArr);
 let arrUser = [];
 
 // variabili secondi del countdown
-let second = 1;
+let second = 30;
 
 // l'input di inserimento dei numeri appare alla fine del timer
 document.querySelector(".input").style.display = "none";
